@@ -2,26 +2,20 @@
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Simple code examples for data engineering, data warehousing and machine learning on Databricks. Code is used and intended for the AXPO Dna summit. 
+If you have questions, need guidance, etc. please do reach out to alexander.genser@databricks.com
 
 ## Getting Started
 
-### Dependencies
+To clone and run this application, you'll need [Git](https://git-scm.com) and a running [Python environment](https://www.python.org/downloads/) installed on your computer. From your command line:
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+```bash
+# Clone this repository
+$ https://github.com/genseral/axpo_dna_summit_2024.git
 
-### Installing
+# Go into the repository
+$ cd axpo_dna_summit_2024
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
 ```
 
 ## Authors
