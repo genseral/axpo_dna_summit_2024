@@ -28,3 +28,7 @@ dbdemos.install('lakehouse-fsi-fraud', use_current_cluster=True, overwrite=True,
 # COMMAND ----------
 
 dbdemos.install('lakehouse-iot-platform', use_current_cluster=True, overwrite=True, catalog='dbw_databricks_dna_hackathon_databricks_stream', schema='guido_oswald')
+
+# COMMAND ----------
+
+dbdemos.install('identity-pk-fk', use_current_cluster=True, overwrite=True)
