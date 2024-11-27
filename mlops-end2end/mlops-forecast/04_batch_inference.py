@@ -86,8 +86,9 @@ forecast_pd.rename(columns={'y': 'yhat'}, inplace=True)
 # COMMAND ----------
 
 from databricks.automl_runtime.forecast.pmdarima.utils import plot
-d = len(inference_df)
-fig = plot(inference_df[:d], forecast_pd[:])
+earliest_ds = forecast_pd["ds"].min()
+filtered_inference_df = inference_df[inference_df["ds"] >= earliest_ds]
+fig = plot(filtered_inference_df, forecast_pd)
 
 # COMMAND ----------
 
