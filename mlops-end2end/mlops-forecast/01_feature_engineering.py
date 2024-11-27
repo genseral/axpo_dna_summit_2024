@@ -124,7 +124,7 @@ def clean_features(dataDF: DataFrame) -> DataFrame:
 
 # DBTITLE 1,Compute Features
 features = clean_features(powerDF)
-display(features)
+display(features.orderBy("ds"))
 
 # COMMAND ----------
 
@@ -188,7 +188,7 @@ spark.sql(f"""COMMENT ON TABLE {catalog}.{db}.mlops_forecast_training IS \'The f
 
 # COMMAND ----------
 
-display(features)
+display(features.orderBy("ds"))
 
 # COMMAND ----------
 
